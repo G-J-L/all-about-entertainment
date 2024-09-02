@@ -111,6 +111,12 @@
              </div>
          </div>
 
+         <div class="sm:hidden">
+            <br>
+            <br>
+            <br>
+         </div>
+
          <!-- Bottom Bar -->
         <div class="fixed bottom-0 left-0 z-50 w-full h-16 bg-black aria-nova text-white text-center flex items-center justify-center">
             <p>© By Group 1 CS - 302 (2024-2025)</p>
@@ -121,8 +127,8 @@
             function Menu(e) {
                 let list = document.querySelector("ul");
                 e.name === "menu" 
-                ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) 
-                : (e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+                ? (e.name = "close", list.classList.add('top-[50px]'), list.classList.add('opacity-100')) 
+                : (e.name = "menu", list.classList.remove('top-[50px]'), list.classList.remove('opacity-100'))
             }
         </script>
     </body>
