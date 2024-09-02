@@ -1,0 +1,21 @@
+@font-face {
+    font-family: ITCBenguia;
+    src: url("../fonts/ITCBenguiatStdBoldCn.OTF") format("opentype");
+}
+
+@font-face {
+    font-family: AriaNova;
+    src: url("../fonts/ArialNovaCond.ttf");
+}
+
+.itc-benguia {
+    font-family: 'ITCBenguia';
+}
+
+.aria-nova {
+    font-family: 'AriaNova';
+}
+
+.aria-nova-bold {
+    font-weight: bold;
+}

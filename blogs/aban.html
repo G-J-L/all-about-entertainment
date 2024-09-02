@@ -1,0 +1,116 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../style/style.css">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+        <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    </head>
+    <body>
+        <!-- Navigation Bar -->
+        <nav class="p-5 bg-black md:justify-between md:items-center fixed top-0 left-0 z-50 w-full">
+            <div class="flex justify-between items-center">
+                <span class="text-white text-3xl cursor-pointer mx-2 md:hidden block">
+                    <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+                </span>
+            </div>
+            <div class="h-auto">
+                <ul class="md:flex md:items-center z-[1] md:z-auto md:static absolute bg-black w-full left-0 md:w-auto
+                md:py-0 py-4 md:pl-0 md:pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500 aria-nova-bold">
+                    <li class="mx-8 my-6 md:my-0">
+                        <a class="text-white hover:text-gray-400 duration-500" href="../home.html">HOME</a>
+                    </li>
+                    <li class="mx-8 my-6 md:my-0">
+                        <a class="text-white hover:text-gray-400 duration-500" href="../blogs.html">BLOGS</a>
+                    </li>
+                    <li class="mx-8 my-6 md:my-0">
+                        <a class="text-white hover:text-gray-400 duration-500" href="../about_us.html">ABOUT US</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <!-- Article Image, Source, Title, Author, Body, References -->
+         <div class="md:mx-20 mx-10">
+            <div class="mt-24 border-2 border-black">
+                <img src="https://miro.medium.com/v2/resize:fit:720/format:webp/0*lSoUR0VsYF8tWo2q.jpg" alt="..." class="object-cover w-full md:h-[23rem] h-[10rem]">
+            </div>
+            <p class="text-xs italic mt-3">Source: Sijercic, A. [2023, January 15]. TikTok effects on the attention span. Medium. </p>
+            <br>
+            <p class="md:text-3xl text-xl font-bold">TikTok or Tick-Tock? Is Our Attention Span Running Out of Time?</p>
+            <p class="md:text-xl text-base pt-1">By Ayhla Maxene Aban</p>
+
+            <div class="mt-10 mb-20 md:text-base text-sm">
+                <p>In a world where a 15-second video can ignite a global trend, TikTok stands as the digital heartbeat of our entertainment culture. Yet, behind the catchy dance moves, viral challenges, and endless memes lies the fact that our attention span is ticking away, second by second. Just like the platform's rapid-fire content, our power to focus may be diminishing faster than we can utter "For You Page." </p>
+                <br>
+                <p>As TikTok feeds us non-stop thrills, our minds crave dopamine, and patience loses its mark. As we immerse ourselves in this micro-entertainment universe, we might find ourselves losing the ability to savor longer narratives—whether in books, films, or even conversations. Is TikTok a symptom of our changing attention spans, or is it the cause?</p>
+                <br>
+                <p>In 2022, TikTok surged to become the most downloaded app. Teens hooked on TikTok now average just 9 seconds of focus, compared to 12 seconds for non-users (Sijercic, 2023). This phenomenon has given rise to the term "TikTok Brain," describing the platform's impact on our cognitive functions that leads to poorer academic performance. Research shows that devoted users often struggle with longer video formats, with nearly 50% finding extended content "stressful" (Aleksandra, 2022). For Generation Z, the optimal attention span seems to be between 21 and 34 seconds (Zaveri, 2023), reinforcing the trend towards brevity. </p>
+                <br>
+                <p>However, TikTok is not the sole culprit. Do you remember Vine with its six-second skits? It paved the way for Musical.ly, which eventually evolved into TikTok. What started as a quick source of amusement has become an all-consuming obsession, with millions glued to their screens. This shift goes beyond mere preference; studies show our collective attention span is shrinking faster than a viral video's lifespan. In 2013, a trending hashtag could hold the top spot for a substantial 17.5 hours. By 2016, that duration had plummeted to just 11.9 hours (Technical University of Denmark, 2023). Therefore, this fuels a continual need for newness, creating a loop where we seek new stimuli ever faster.</p>
+                <br>
+                <p>Experts like Dr. Margaret Sibley from the University of Washington warn that this environment of constant distraction can mimic symptoms of ADHD, a neurodevelopmental disorder characterized by difficulty paying attention, controlling impulses, and staying organized (Ducharme, 2023). While distractibility is not new, our digital habits exacerbate it. Notifications and quick-burst content trigger dopamine surges, rewiring our brains to crave frequent instant pleasure. This "task-switching" behavior results in reduced productivity as distractions accumulate. In essence, the quest for the latest keeps us from achieving deep focus.</p>
+                <br>
+                <p>In conclusion, we’re standing at the edge of a seismic evolution in entertainment. As TikTok’s short bursts of content reshape our consumption habits, deep focus might soon be a thing of the past. With our fast-paced lives demanding more speed, long-form content could be on the verge of obsolescence. Regardless, with every swipe and scroll, one thing remains clear: our attention spans are racing against the clock, and the timer is ticking down faster than ever. TikTok is both a reflection and a catalyst, mirroring existing trends while simultaneously shaping our attention spans, which are being outpaced by its ever-quickening pace.</p>
+
+                <br>
+                <br>
+                
+                <p class="font-bold italic">References:</p>
+                <div class="indent-8">
+                    <p>
+                        Aleksandrain. (2022, September 18).
+                        <span class="italic">TikTok is killing your brain, one short-form video at a time.</span>
+                        Social Media Psychology. 
+                        <a class="text-blue-500 underline" href="https://socialmediapsychology.eu/2022/08/18/tiktok-is-killing-your-brain-right-now/">https://socialmediapsychology.eu/2022/08/18/tiktok-is-killing-your-brain-right-now/</a>
+                    </p>
+                    <p>
+                        Ducharme, J. (2023, August 10). 
+                        <span class="italic">Why no one feels like they can focus anymore.</span>
+                        Time.
+                        <a class="text-blue-500 underline" href="https://time.com/6302294/why-you-cant-focus-anymore-and-what-to-do-about-it/">https://time.com/6302294/why-you-cant-focus-anymore-and-what-to-do-about-it/</a>
+                    </p>
+                    <p>
+                        Sijercic, A. (2023, January 15). 
+                        <span class="italic">TikTok effects on the attention span.</span>
+                        Medium.
+                        <a class="text-blue-500 underline" href="https://medium.com/digital-reflections/tiktok-effect-on-attention-span-12211b0a06a1">https://medium.com/digital-reflections/tiktok-effect-on-attention-span-12211b0a06a1</a>
+                    </p>
+                    <p>
+                        Technical University of Denmark. (2019, April 15).
+                        <span class="italic">Abundance of information narrows our collective 
+                            attention span.</span>
+                        Science Daily.
+                        <a class="text-blue-500 underline" href="https://www.sciencedaily.com/releases/2019/04/190415081959.htm">https://www.sciencedaily.com/releases/2019/04/190415081959.htm</a>
+                    </p>
+                    <p>
+                        Zaveri, J. (2023, May 23).
+                        <span class="italic">TikTok and the death of the attention span.</span>
+                        The Oxford Blue. 
+                        <a class="text-blue-500 underline" href="https://theoxfordblue.co.uk/tiktok-and-the-death-of-the-attention-span/">https://theoxfordblue.co.uk/tiktok-and-the-death-of-the-attention-span/</a>
+                    </p>
+                    <br>
+                </div>
+            </div>
+            
+
+         </div>
+
+         <!-- Bottom Bar -->
+        <div class="fixed bottom-0 left-0 z-50 w-full h-16 bg-black aria-nova text-white text-center flex items-center justify-center">
+            <p>© By Group 1 CS - 302 (2024-2025)</p>
+        </div>
+        
+        <!-- Responsive Navigation Bar Script -->
+        <script>
+            function Menu(e) {
+                let list = document.querySelector("ul");
+                e.name === "menu" 
+                ? (e.name = "close", list.classList.add('top-[80px]'), list.classList.add('opacity-100')) 
+                : (e.name = "menu", list.classList.remove('top-[80px]'), list.classList.remove('opacity-100'))
+            }
+        </script>
+    </body>
+</html>
